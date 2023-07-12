@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Navigation</title>
+    <style>
+        .navbar {
+            background-color: rgb(235 210 165);
+            color: rgb(222, 217, 217);
+            border-radius: 20px;
+        }
+
+        .navbar UL {
+            overflow: auto;
+            margin: 15px;
+            padding: 15px;
+
+        }
+
+        .navbar li {
+            margin: 3px 3px;
+            float: left;
+            list-style: none;
+
+
+
+        }
+
+        .navbar li a {
+            padding: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            color: rgb(10, 134, 59);
+
+        }
+
+        .search {
+            float: right;
+            border-radius: 13px;
+            color: rgb(10, 134, 59);
+
+        }
+        .navbar input{
+            border:3px solid  rgb(10, 134, 59);
+            border-radius:10px;
+        }
+        .navbar a:hover{
+
+            color: rgb(161, 84, 100);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href=""><i class="fa fa-home"></i></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact us</a></li>
+               <li> <a href="#"><i class="fa fa-globe"></i></a></li>
+                <div class="search">
+                    <input type="tel" name="search" id="search" placeholder="search">&nbsp;<i  style="cursor: pointer;margin:3px;padding:3px;"class="fa fa-search"></i>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>
